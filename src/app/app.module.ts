@@ -18,6 +18,7 @@ import { Compt8Component } from './content/compt8/compt8.component';
 import { Compt9Component } from './content/compt9/compt9.component';
 import { TextconvertPipe } from './series/pipes/textconvert.pipe';
 import { ServimapService } from './series/services/servimap.service';
+import { TextcantPipe } from './series/pipes/textcant.pipe';
 
 const environment = {
   production: false,
@@ -43,7 +44,9 @@ const environment = {
     Compt7Component,
     Compt8Component,
     Compt9Component,
-    TextconvertPipe
+    TextconvertPipe,
+    TextcantPipe,
+
   ],
   imports: [
     BrowserModule,

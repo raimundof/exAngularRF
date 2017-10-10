@@ -8,6 +8,8 @@ import { ServimapService } from '../../series/services/servimap.service';
 })
 export class Compt7Component implements OnInit {
   title: string = 'My direccion';
+  lat: number = -21.586927;
+  lng: number = -64.655292;
 
 
   zoom: number = 16; 
@@ -16,7 +18,6 @@ export class Compt7Component implements OnInit {
 
   constructor(private markers : ServimapService) {
     this.coordinates = markers.coordinates;
-    console.log(this.coordinates);
    }
 
   ngOnInit() {

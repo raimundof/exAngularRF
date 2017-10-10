@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Compt3Component implements OnInit {
 
+  texto: string = "Angular ignores changes within (composite) objects. It won't call a pure pipe if you change an input month, add to an input array, or update an input object property.";
   constructor() { }
 
   ngOnInit() {
